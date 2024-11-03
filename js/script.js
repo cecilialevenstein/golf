@@ -17,3 +17,8 @@ function moverBolinha(event) {
 }
 
 document.addEventListener("keydown", moverBolinha);
+
+function reiniciar () {
+    posicao = 0;
+    bolinhaElemento.style.marginLeft = `${posicao}px`;
+}
